@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base{
+    body{
+        @apply text-slate-700;
+
+    }
+
+    button{
+        @apply focus:ring-0 focus:border-0 focus:outline-none;
+    }
+}
